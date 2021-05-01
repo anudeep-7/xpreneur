@@ -1,0 +1,12 @@
+#flexEachItem{
+    height: 200px;
+    background-color:#eeeeee;
+}
+.headerText{
+    font-weight: normal;
+    font-size: small;
+  
+}
+a{
+    color:black;
+}

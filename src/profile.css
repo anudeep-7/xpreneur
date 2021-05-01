@@ -1,0 +1,97 @@
+#profileContainer{
+    background-color: #f2f4f5;
+    height: 200vh;
+    margin-top: 40px;
+}
+.profileInputBox{
+    width:800px;
+}
+.credentialsBox{
+    width: 800px;
+}
+.credentialsrow{
+    display: flex;
+    flex-direction: row;
+}
+#disconnect{
+    color: grey;
+}
+#showYourPassword:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#disconnect:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color:black
+}
+#profileContainerBox{
+    width:850px;
+}
+#credentialsContainerBox{
+    width:850px;
+}
+.inputProfile{
+    border:1px solid #d6dee8;
+    height: 50px;
+    font-size: 14px;
+    width: 350px;
+}
+.inputProfile:focus{
+    border:1px groove black;
+    
+}
+.uploadFile{
+    font-weight: 600;
+    color: teal;
+}
+.uploadFile:hover{
+    text-decoration: underline;
+}
+#imageUpload{
+    border:1px dashed black;
+    width: 100%;
+    padding:20px;
+    padding-top: 30px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+.saveChanges{
+    background-color: teal;
+    color: white;
+    font-weight: 500;
+}
+/* #imageUpload:hover{
+    background-color: #efefef;
+} */
+
+
+
+@media screen and (max-width: 992px) {
+
+    #profileContainerBox{
+        width:100%;
+    }
+    .profileInputBox{
+        width:95%;
+    }
+  
+    .inputProfile{
+        margin-left: 15;
+        margin-right: 15%;
+        border:1px solid #d6dee8;
+        height: 50px;
+        font-size: 14px;
+        width: 100%;
+    }
+    #credentialsContainerBox{
+        width:100%;
+    }.credentialsBox{
+        width: 95%;
+    }
+    .credentialsrow{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,43 @@
+#secondProfileContainer{
+    height:200vh;
+    background-color: #eeeeee;
+}
+.coverDown:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.profileInfo{
+    width:600px
+}
+
+
+
+
+
+
+
+#profilePic{
+    width:100px;
+    height: 100px;
+    border:2px solid white;
+}
+.connect{
+    border:1px solid white;
+    color: white;
+}
+.connect:hover{
+    color:#080c22;
+    background-color: white;
+}
+#cover:before{
+    background-image: url("/src/Images/network.png");
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 992px) {
+
+    .profileInfo{
+        width:100%
+    }
+}

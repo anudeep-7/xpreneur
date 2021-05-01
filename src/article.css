@@ -1,0 +1,144 @@
+#socialMedia:hover{
+    cursor: pointer;
+    color:#42f2cb;
+}
+#mainArticleBox{
+    margin-top: 80px;
+}
+#articleHeading{
+    font-size: 40px;
+}
+#articleImage{
+    height: 350px;
+}
+.articleInfo{
+    font-size: 22px;
+}
+.buttonsArticle{
+    font-size: 18px;
+}
+#articleMainInfo{
+    font-size: 24px;
+}
+.addComment{
+    font-size: 28px;
+}
+.writeComment{
+    height: 50px;
+    font-size: 20px;
+}
+#icons{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 10%;
+    top:20%
+}
+#likes{
+    color: black;
+    font-weight: 600;
+    margin-right: 20px;
+    border:1px solid teal;
+    color:teal;
+    border-radius: 5px;
+    /* border: 1px solid gray; */
+    /* background-color: #42f2cb; */
+}
+#likes:hover{
+    background-color:teal;
+    color:white;
+    cursor: pointer;
+    border: 1px solid gray;
+    /* color:#42f2cb; */
+}
+#comment{
+    color: teal;
+    font-weight: 600;
+    border:1px solid teal;
+    border-radius: 5px;
+    /* border: 1px solid gray; */
+    /* background-color: #42f2cb; */
+}
+#comment:hover{
+    background-color:teal;
+    color:white;
+    cursor: pointer;
+    border: 1px solid gray;
+    /* color:#42f2cb; */
+}
+.comments span{
+    font-size: 23px;
+}
+.comments .commentInfo{
+    font-size: 22px;
+}
+#post{
+    color: teal;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 22px;
+    font-weight: 600;
+    border:1px solid teal;
+    border-radius: 5px;
+}
+#post:hover{
+    background-color:teal;
+    color:white;
+    cursor: pointer;
+    border: 1px solid gray;
+    /* color:#42f2cb; */
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+    #mainArticleBox{
+        margin-top: 20px;
+    }
+    #articleImage{
+        width: 100%;
+        height: auto;
+    }
+    #icons{
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* border:1px solid black; */
+        width:80%;
+        position: fixed;
+        left: 0%;
+        /* top:4% */
+    }
+    #articleHeading{
+        font-size: 20px;
+    }
+    #articleMainInfo{
+        font-size: 16px;
+    }
+    .articleInfo{
+        font-size: 16px;
+    }
+    .buttonsArticle{
+        font-size: 15px;
+    }
+    #post{
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .addComment{
+        font-size: 16px;
+    }
+    .writeComment{
+        height:50px;
+        font-size: 15px;
+    }
+    .comments span{
+        font-size: 15px;
+    }
+    .comments .commentInfo{
+        font-size: 16px;
+    }
+}
